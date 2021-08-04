@@ -5,7 +5,7 @@
 #       will check whether it is possible to convert a 32bit value
 #       to 16bit value or not.
 
-.file "f32to16.asm"
+.file "f32to16.s"
 
 
 
@@ -76,15 +76,6 @@ f32to16_success:
 popl %edi
 popl %eax
 ret       
-    
-    
-         
-                               
-
- 
-    
-    
-
 
 
 .globl main
