@@ -129,8 +129,6 @@ hex_to_char:
 	int 0x10
 
 
-
-
 	add dl,0x30
 	cmp dl,0x39
 
